@@ -1,7 +1,4 @@
 <?php
-//echo dirname(dirname(dirname(__FILE__)));
-//require_once dirname(dirname(dirname(__FILE__))).'/configs/config.php';
-//require_once '../config.php';
 /*
  * This file is part of Linfo (c) 2010 Joseph Gillotti.
  * 
@@ -21,8 +18,6 @@
 */
 //$_POST['CPU']=1;
 //$_POST['RAM']=1;
-error_reporting(E_ALL);
-ini_set('display_errors','1');
 
 include_once 'functions.misc.php';
 function determineOS() {
